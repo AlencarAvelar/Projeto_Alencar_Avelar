@@ -24,4 +24,7 @@ public class B {
     public void MC2(){
         System.out.println("Metodo C1 executado");
     }
+    public void MC3(){
+        System.out.println("Metodo C3 executado");
+    }
 }
