@@ -27,4 +27,7 @@ public class D {
     public void Md3(){
         System.out.println("Metodo D3 executado");
     }
+    public void Md5(){
+        System.out.println("Metodo D3 executado");
+    }
 }
