@@ -31,4 +31,7 @@ public class D {
         System.out.println("Metodo D4 executado");
     }
 
+    public void Md5(){
+        System.out.println("Metodo D3 executado");
+    }
 }
