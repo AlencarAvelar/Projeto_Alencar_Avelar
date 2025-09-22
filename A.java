@@ -1,8 +1,6 @@
-
 public class A {
     private int a1;
     private float a2;
-
 
     public int getA1() {
         return a1;
@@ -14,21 +12,23 @@ public class A {
     public float getA2() {
         return a2;
     }
-
     public void setA2(float a2) {
         this.a2 = a2;
     }
 
-    public void MA1(){
+    public void MA1() {
         System.out.println("Metodo MA1 executado");
     }
 
-    public void MA2(){
+    public void MA2() {
         System.out.println("Metodo MA2 executado");
     }
 
-    public void MA3(){
-        System.out.println("Alteração a classe A partir do clone”);
+    public void MA3() {
+        System.out.println("Alteração a classe A a partir do clone");
     }
 
+    public int getSoma(int a, int b) {
+        return a + b;
+    }
 }
